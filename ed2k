@@ -1,0 +1,31 @@
+// ==UserScript==
+// @name         extract ed2k links
+// @namespace    http://tampermonkey.net/
+// @version      0.1
+// @description  try to take over the world!
+// @author       You
+// @match        https://movie.douban.com/*
+// @match        http://tieba.baidu.com/*
+// @grant        none
+// @require      http://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js
+// ==/UserScript==
+
+
+$(document).ready(function(){
+    //正则表达式
+    var markup = document.documentElement.innerHTML;
+    var lis = markup.match(/ed2k\:\/\/\|file\|.*?\|.*?\|.*?\|/g);
+    // console.log(lis);
+    var links=document.createElement("div");//创建一个新的＜div＞元素
+    links.id="links";//给这个元素的HTML id赋值
+    links.innerHTML="＜h2＞All links below＜/h2＞<br>";//定义初始内容
+
+    for (i=0;i<=lis.length - 1;i++)
+    {
+        links.innerHTML += lis[i] + "<br>";
+    }
+
+    document.body.appendChild(links);//将其添加到文档的末尾”
+    console.log("test");
+
+});
