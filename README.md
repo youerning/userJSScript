@@ -4,5 +4,9 @@
 ## youtube playlist statistics
 - statirics the videos duration of youtube playlist video include total,longest,shortest time
 - screenshot as follow
-- ![screenshot](img/youtube-statistics.png)
+![screenshot](img/youtube-statistics.png)
+## console chat
+- simple chat in cmd
+## webim
+- a page for chat with socket.io
 
