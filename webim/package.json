@@ -1,0 +1,23 @@
+{
+  "name": "webim",
+  "version": "1.0.0",
+  "description": "web im ",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "webim"
+  ],
+  "author": "Ye",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.15.3",
+    "socket.io": "^2.0.3"
+  },
+  "devDependencies": {
+    "gulp": "gulpjs/gulp#4.0",
+    "gulp-develop-server": "^0.5.2",
+    "gulp-notify": "^3.0.0"
+  }
+}
