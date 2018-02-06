@@ -9,4 +9,5 @@
 - simple chat in cmd
 ## webim
 - a page for chat with socket.io
-
+## 12306 query
+- 12306 query timeout refresh
