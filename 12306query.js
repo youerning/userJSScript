@@ -10,6 +10,7 @@
 
 (function() {
     'use strict';
+    window.autoSearchTime = 2000;
     setInterval(function(){
         var noTicket = $("#no_filter_ticket_6");
         if (noTicket.css("display") == "block") {
