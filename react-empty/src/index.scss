@@ -1,6 +1,15 @@
+/*
+* @Author: youerning
+* @Date:   2018-07-27 16:37:00
+* @Last Modified by:   youerning
+* @Last Modified time: 2018-07-30 17:53:42
+*/
 body {
-    background:url(1.jpg);
+    background: #ccc;
     #app {
-        font-size: 50px;
+        .jsx {
+            color: blue;
+            font-size: 20px;
+        }
     }
 }
